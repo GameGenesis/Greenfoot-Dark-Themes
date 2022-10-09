@@ -31,8 +31,7 @@ A faithful recreation of the GitHub light mode theme
 
 ### Default Dark
 A faithful dark version of the default Greenfoot light theme with slight color modifications
-
-![default_dark](https://user-images.githubusercontent.com/52415147/194774284-0ed7109f-4919-478d-b7b1-1536320cb080.png)
+![default_dark](https://user-images.githubusercontent.com/52415147/194780317-c9445285-a30f-45b4-b0be-faa4552e68f1.png)
 
 ### Default Light
 The theme that comes with Greenfoot by default
