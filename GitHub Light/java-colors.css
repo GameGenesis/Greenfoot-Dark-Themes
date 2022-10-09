@@ -1,0 +1,73 @@
+.token-keyword1 {
+    -fx-fill: #d8222e;
+}
+.token-keyword2 {
+    -fx-fill: #d8222e;
+}
+.token-keyword3 {
+    -fx-fill: #0550ae;
+}
+
+.token-comment-normal {
+    -fx-fill: #787878;
+}
+.token-comment-javadoc {
+    -fx-fill: #787878;
+}
+.token-comment-special {
+    -fx-fill: #787878;
+}
+
+.token-primitive {
+    -fx-fill: #d8222e;
+}
+.token-string-literal {
+    -fx-fill: #953800;
+}
+.token-label {
+    -fx-fill: #999999;
+}
+.token-invalid {
+    -fx-fill: #ff3300;
+}
+/* Default text colour */
+.token-default {
+    -fx-fill: #000000;
+}
+
+.scope-colors {
+    -bj-background-color: rgb(245, 245, 245);
+
+    -bj-class-color: rgb(245, 245, 245);
+    -bj-class-outer-color: rgb(245, 245, 245);
+    -bj-class-inner-color: rgb(245, 245, 245);
+
+    -bj-method-color: rgb(245, 245, 245);
+    -bj-method-outer-color: rgb(245, 245, 245);
+
+    -bj-selection-color: rgb(245, 245, 245);
+    -bj-selection-outer-color: rgb(245, 245, 245);
+
+    -bj-iteration-color: rgb(245, 245, 245);
+    -bj-iteration-outer-color: rgb(245, 245, 245);
+
+    -bj-breakpoint-overlay-color: rgb(245, 245, 245);
+    -bj-step-overlay-color: rgb(245, 245, 245);
+}
+
+.moe-step-mark-icon {
+    -fx-fill: rgb(20, 140, 20);
+    -fx-stroke: white;
+}
+
+.moe-editor-pane {
+    -fx-background-color: rgb(245, 245, 245);
+    -fx-highlight-fill: hsb(211, 50%, 90%);
+}
+
+.moe-find-result {
+    -rtfx-background-color: hsb(211, 20%, 99%);
+}
+.moe-editor-pane .caret {
+   -fx-stroke: rgb(255, 0, 100);
+}#
