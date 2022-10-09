@@ -12,10 +12,10 @@
     -fx-fill: #999999;
 }
 .token-comment-javadoc {
-    -fx-fill: #999999;
+    -fx-fill: #525af5;
 }
 .token-comment-special {
-    -fx-fill: #ee00bb;
+    -fx-fill: #ef56ce;
 }
 
 .token-primitive {
