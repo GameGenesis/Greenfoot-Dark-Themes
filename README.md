@@ -20,4 +20,11 @@ Modifies the Greenfoot CSS Stylesheets to add different Dark Mode themes.
 ![classic_navy](https://user-images.githubusercontent.com/52415147/194774280-52a1bf28-530d-46c1-831c-d0a5938a9881.png)
 
 ### Default Dark
+A faithful dark version of the default Greenfoot light theme with slight color modifications
+
 ![default_dark](https://user-images.githubusercontent.com/52415147/194774284-0ed7109f-4919-478d-b7b1-1536320cb080.png)
+
+### Default Light
+The theme that comes with Greenfoot by default
+
+![default_light](https://user-images.githubusercontent.com/52415147/194777105-c8295d07-6a72-4815-8524-020ba187c4ce.png)
