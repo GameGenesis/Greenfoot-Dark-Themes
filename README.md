@@ -11,3 +11,13 @@ Modifies the Greenfoot CSS Stylesheets to add different Dark Mode themes.
 1. Open the Greenfoot code editor and select Options from the toolbar
 2. Click on Preferences
 3. Tick the "Display line numbers" checkbox
+
+## Preview
+### Classic Muted
+![classic_muted](https://user-images.githubusercontent.com/52415147/194774263-a596ba0c-3c24-4323-b051-efc2feda3aac.png)
+
+### Classic Navy
+![classic_navy](https://user-images.githubusercontent.com/52415147/194774280-52a1bf28-530d-46c1-831c-d0a5938a9881.png)
+
+### Default Dark
+![default_dark](https://user-images.githubusercontent.com/52415147/194774284-0ed7109f-4919-478d-b7b1-1536320cb080.png)
