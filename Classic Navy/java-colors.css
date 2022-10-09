@@ -1,0 +1,73 @@
+.token-keyword1 {
+    -fx-fill: #ff6188;
+}
+.token-keyword2 {
+    -fx-fill: #ff6188;
+}
+.token-keyword3 {
+    -fx-fill: #ab9df2;
+}
+
+.token-comment-normal {
+    -fx-fill: #999999;
+}
+.token-comment-javadoc {
+    -fx-fill: #a9dc76;
+}
+.token-comment-special {
+    -fx-fill: #999999;
+}
+
+.token-primitive {
+    -fx-fill: #78dce8;
+}
+.token-string-literal {
+    -fx-fill: #ffd866;
+}
+.token-label {
+    -fx-fill: #999999;
+}
+.token-invalid {
+    -fx-fill: #ff3300;
+}
+/* Default text colour */
+.token-default {
+    -fx-fill: #eefef9;
+}
+
+.scope-colors {
+    -bj-background-color: #273136; /* background for normal code */
+ 
+    -bj-class-color: #273136; /* background of class outside the box inside it, javadoc-comments above are included */
+    -bj-class-outer-color: #273136; /* outline of the class */
+    -bj-class-inner-color: #273136; /* outline of the box inside the "class-color" background */
+ 
+    -bj-method-color: #273136; /* background of method outside the box inside it, javadoc-comments above are included */
+    -bj-method-outer-color: #273136; /* outline of the box inside the "method-color" background */
+ 
+    -bj-selection-color: #273136; /* background of if-blocks outside the box inside it */
+    -bj-selection-outer-color: #273136; /* outline of the box inside the "selection-color" background */
+ 
+    -bj-iteration-color: #273136; /* background of loops like for/while outside the box inside it */
+    -bj-iteration-outer-color: #273136; /* outline of the the box inside the "iteration-color" background */
+ 
+    -bj-breakpoint-overlay-color: rgb(62, 78, 86, 1); /* color over a line of code with a breakpoint */
+    -bj-step-overlay-color: rgba(252, 152, 103, 0.4); /* color over a line of code where the code paused because of a breakpoint */
+}
+
+.moe-step-mark-icon {
+    -fx-fill: #a9dc76;
+    -fx-stroke: #a9dc76;
+}
+
+.moe-editor-pane {
+    -fx-background-color: #273136;
+    -fx-highlight-fill: hsb(0, 0%, 12%);
+}
+
+.moe-find-result {
+    -rtfx-background-color: hsb(0, 0%, 12%);
+}
+.moe-editor-pane .caret {
+   -fx-stroke: rgb(255, 0, 100);
+}#
