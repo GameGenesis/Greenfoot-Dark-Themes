@@ -1,0 +1,217 @@
+/* Define named colours: */
+.root {
+    export-background: rgb(225, 225, 225);
+}
+
+.class-group .inherit-arrow {
+    -fx-stroke: rgb(20, 20, 20);
+    -fx-stroke-width: 2;
+    -fx-fill: null;
+}
+
+.class-display {
+    /* Match size of selected border: */
+    -fx-border-width: 2, 2;
+    -fx-border-color: rgb(58, 176, 176), transparent;
+    -fx-border-style: solid outside;
+}
+.class-display:gf-selected {
+    -fx-border-width: 3;
+    -fx-border-color: magenta;
+}
+.class-display, .class-display-content {
+    -fx-background-color:  rgb(20, 20, 20);
+}
+.class-display-content {
+    /* These two values must be identical to let us see the stripes: */
+    -fx-padding: 4px 7px 4px 7px;
+    -fx-background-insets: 4px 7px 4px 7px;
+}
+.class-display-content .label {
+    -fx-content-display: right;
+    -fx-graphic-test-gap: 5;
+    -fx-text-fill: white;
+}
+
+.gclass-diagram {
+    -fx-padding: 5px;
+}
+.gclass-diagram-scroll > .viewport {
+    -fx-background-color: rgb(120, 120, 120);
+}
+.gclass-diagram-scroll-wrapper {
+    -fx-padding: 15px;
+}
+
+.import-class-dialog .class-group {
+    -fx-border-color: orange;
+    -fx-border-width: 1;
+    -fx-border-style: solid inside;
+}
+.export-dialog .content {
+    -fx-background-color: rgb(120,120,120);
+    -fx-padding: 10px 10px 0 10px;
+}
+.export-dialog .content .label {
+    -fx-text-fill: cyan;
+}
+.export-dialog .content .tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: rgb(30,30,30);
+}
+.export-dialog .content .bottom-box {
+    -fx-background-color: rgb(20,20,20);
+    -fx-spacing: 10px;
+    -fx-padding: 10px 10px 0 10px;
+    -fx-alignment: baseline-left;
+}
+.export-tab {
+    -fx-pref-height: 75px;
+    -fx-background-color: rgb(90,90,90);
+}
+.export-tab:selected {
+    -fx-background-color: cyan;
+    -fx-background-insets: -1 !important;
+}
+.export-tab-content {
+    -fx-padding: 10px;
+    -fx-spacing: 10px;
+    -fx-font-style: normal;
+    -fx-text-fill: blue;
+}
+.export-publish-tab .help-box {
+  -fx-background-color: rgb(20,20,25);
+  -fx-alignment: baseline-left;
+}
+.export-publish-tab .help-box .label {
+  -fx-font-style: normal;
+  -fx-text-fill: yellow;
+}
+.export-publish-tab .info-pane, .export-publish-tab .login-pane {
+    -fx-effect: innershadow(three-pass-box, cyan, 12,0.5,1,1);
+    -fx-background-color: rgb(0,0,0);
+    -fx-padding: 15px;
+}
+.export-publish-tab .login-pane {
+    -fx-background-color: rgb(20,20,25);
+    -fx-spacing: 10px;
+    -fx-alignment: baseline-center;
+}
+.export-publish-tab .scenario-pane {
+    -fx-spacing: 10px;
+    -fx-padding: 10px 10px 0 0;
+}
+.export-publish-tab .title-desc-pane {
+    -fx-hgap: 8px;
+    -fx-vgap: 8px;
+}
+.export-publish-tab .icon-text-pane {
+    -fx-alignment: center-right;
+}
+.export-publish-tab .tag-pane {
+    -fx-spacing: 20px;
+}
+.export-publish-tab .pop-pane {
+    -fx-spacing: 5px;
+}
+.export-publish-tab .source-lock-pane {
+    -fx-spacing: 10px;
+    -fx-padding: 5px 0 0 0;
+    -fx-alignment:	bottom-center;
+}
+.export-publish-tab .label {
+    -fx-font-style: normal;
+    -fx-text-fill: black;
+}
+.export-publish-tab .intro-label {
+    -fx-font-style: normal;
+    -fx-text-fill: red;
+}
+.export-publish-tab .create-account-label {
+    -fx-alignment:	bottom-left;
+}
+.export-local-tab .location-pane {
+    -fx-spacing: 5px;
+}
+.export-dialog .label {
+    -fx-text-fill: cyan;
+}
+.image-edit-pane {
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+}
+
+.ask-pane {
+    -fx-border-width: 1;
+    -fx-background-color: rgb(222, 166, 41);
+    -fx-border-color: black;
+    -fx-padding: 10 10 10 10;
+}
+.world-display-wrapper {
+    -fx-border-style: solid outside;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+}
+.image-edit-pane .image-canvas {
+    -fx-border-style: solid inside;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+}
+.world-display-scroll {
+    /* Turn off the scroll pane border except at bottom and right: */
+    -fx-background-insets: 0, 0 1 1 0;
+    -fx-padding: 0 1 1 0;
+}
+
+.background-message, .hung-message {
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-wrap-text: true;
+    -fx-label-padding: 40px;
+    -fx-font-size: 20px;
+    /* Let it fill the space: */
+    -fx-max-width: 99999.0;
+    -fx-max-height: 99999.0;
+}
+.background-message {
+    -fx-text-fill: gray;
+    -fx-background-color: -fx-box-border, -fx-background;
+    -fx-background-insets: 0, 0 1 1 0;
+}
+.hung-message {
+    -fx-text-fill: maroon;
+}
+
+.act-icon {
+    -fx-stroke: blue;
+    -fx-fill: cyan;
+    -fx-stroke-width: 2;
+}
+.run-icon {
+    -fx-stroke: blue;
+    -fx-fill: cyan;
+    -fx-stroke-width: 2;
+}
+.pause-icon {
+    -fx-stroke: blue;
+    -fx-fill: cyan;
+    -fx-stroke-width: 3;
+    -fx-stroke-line-cap: square;
+}
+
+.control-panel {
+    -fx-padding: 10 0 10 0;
+    -fx-background-insets: 0, 0 1 0 0;
+    -fx-background-color: -fx-box-border, -fx-background;
+}
+.control-panel .buttons-panel {
+    -fx-hgap: 20;
+    /* 280 is the minimum without wrapping the buttons */
+    -fx-min-width: 280;
+}
+.control-panel .buttons-panel .button {
+    -fx-graphic-text-gap: 8;
+    -fx-padding: 6 10 6 10;
+}
+.control-panel .speed-panel {
+    -fx-hgap: 10;
+}
