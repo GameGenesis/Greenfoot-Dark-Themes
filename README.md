@@ -13,10 +13,14 @@ Modifies the Greenfoot CSS Stylesheets to add different Dark Mode themes.
 3. Tick the "Display line numbers" checkbox
 
 ## Preview
-### Classic Muted
+### Classic Dark
+An homage to Monokai Pro and Sublime Text
+
 ![classic_muted](https://user-images.githubusercontent.com/52415147/194774263-a596ba0c-3c24-4323-b051-efc2feda3aac.png)
 
-### Classic Navy
+### Classic Midnight
+Captures the dark blues of a clear night
+
 ![classic_navy](https://user-images.githubusercontent.com/52415147/194774280-52a1bf28-530d-46c1-831c-d0a5938a9881.png)
 
 ### GitHub Dark
@@ -31,6 +35,7 @@ A faithful recreation of the GitHub light mode theme
 
 ### Default Dark
 A faithful dark version of the default Greenfoot light theme with slight color modifications
+
 ![default_dark](https://user-images.githubusercontent.com/52415147/194780317-c9445285-a30f-45b4-b0be-faa4552e68f1.png)
 
 ### Default Light
