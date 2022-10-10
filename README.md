@@ -36,7 +36,7 @@ A faithful recreation of the GitHub light mode theme
 ### Solar Light
 A different take on a light mode theme using autumn colors
 
-![solar_light](https://user-images.githubusercontent.com/52415147/194794109-9ce2f7ae-a1da-4670-9da9-c58d23c58d94.png)
+![solar_light](https://user-images.githubusercontent.com/52415147/194794797-aac6f420-97fd-4cd6-a6cd-f314ffdf3014.png)
 
 ### Default Dark
 A faithful dark version of the default Greenfoot light theme with slight color modifications
