@@ -51,8 +51,8 @@
     -bj-iteration-color: #fdf6e3;
     -bj-iteration-outer-color: #fdf6e3;
 
-    -bj-breakpoint-overlay-color: #fdf6e3;
-    -bj-step-overlay-color: #fdf6e3;
+    -bj-breakpoint-overlay-color: rgba(221, 214, 193, 1);
+    -bj-step-overlay-color: rgba(196, 110, 5, 0.4);
 }
 
 .moe-step-mark-icon {
