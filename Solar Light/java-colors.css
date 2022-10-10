@@ -12,7 +12,7 @@
     -fx-fill: #98a5a4;
 }
 .token-comment-javadoc {
-    -fx-fill: #d85190;
+    -fx-fill: #8e9f0d;
 }
 .token-comment-special {
     -fx-fill: #98a5a4;
@@ -22,7 +22,7 @@
     -fx-fill: #c46e05;
 }
 .token-string-literal {
-    -fx-fill: #8e9f0d;
+    -fx-fill: #d85190;
 }
 .token-label {
     -fx-fill: #98a5a4;
