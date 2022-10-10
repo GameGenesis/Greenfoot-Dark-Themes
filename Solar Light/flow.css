@@ -16,14 +16,14 @@
     -fx-cursor: text;
 }
 .flow-margin-line {
-    -fx-stroke: #ddd6c1;
+    -fx-stroke: #fdf6e3;
 }
 .flow-margin-background {
-    -fx-background-color: #ddd6c1;
+    -fx-background-color: #fdf6e3;
     -fx-cursor: default;
 }
 .margin-and-text-line:bj-margin-uncompiled .flow-margin-background {
-    -fx-background-color: rgb(232, 232, 232);
+    -fx-background-color: #fdf6e3;
 }
 .margin-and-text-line:bj-margin-error .flow-margin-background {
     -fx-background-color: hsb(0, 70%, 50%);
@@ -37,7 +37,7 @@
     -fx-alignment: center-right;
     -fx-graphic-text-gap: 0;
     -fx-label-padding: 0 2 0 0;
-    -fx-text-fill: rgb(105, 105, 105);
+    -fx-text-fill: #9b7f55;
     -fx-cursor: default;
 }
 .margin-and-text-line:bj-margin-error .flow-line-label {
