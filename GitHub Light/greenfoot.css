@@ -20,7 +20,7 @@
     -fx-border-color: black;
 }
 .class-display, .class-display-content {
-    -fx-background-color: rgb(245, 204, 155);
+    -fx-background-color: #d0202c;
 }
 .class-display-content {
     /* These two values must be identical to let us see the stripes: */
@@ -30,6 +30,7 @@
 .class-display-content .label {
     -fx-content-display: right;
     -fx-graphic-test-gap: 5;
+    -fx-text-fill: white;
 }
 
 .gclass-diagram {
