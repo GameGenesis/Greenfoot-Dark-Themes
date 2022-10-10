@@ -23,7 +23,7 @@
     -fx-cursor: default;
 }
 .margin-and-text-line:bj-margin-uncompiled .flow-margin-background {
-    -fx-background-color: hsb(0, 0%, 75%);
+    -fx-background-color: #273136;
 }
 .margin-and-text-line:bj-margin-error .flow-margin-background {
     -fx-background-color: hsb(0, 70%, 50%);
