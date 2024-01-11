@@ -12,6 +12,9 @@ Modifies the Greenfoot CSS Stylesheets to add different Dark Mode themes.
 2. Click on Preferences
 3. Tick the "Display line numbers" checkbox
 
+## Alternative Installation for Windows
+[Greenfoot Themer](https://github.com/wonmor/Greenfoot-Themer) by John Seong.
+
 ## Preview
 ### Classic Dark
 An homage to Monokai Pro and Sublime Text
