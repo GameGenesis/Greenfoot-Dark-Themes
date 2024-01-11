@@ -19,7 +19,7 @@ An homage to Monokai Pro and Sublime Text
 ![classic_muted](https://user-images.githubusercontent.com/52415147/194774263-a596ba0c-3c24-4323-b051-efc2feda3aac.png)
 
 ### Classic Midnight
-Captures the dark blues of a clear night
+Captures the deep rich hues of midnight
 
 ![classic_navy](https://user-images.githubusercontent.com/52415147/194774280-52a1bf28-530d-46c1-831c-d0a5938a9881.png)
 
